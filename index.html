@@ -6,15 +6,26 @@
   <title>SA Fuel Cost Calculator</title>
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background: #f0f2f5;
-      margin: 0;
-      padding: 16px;
-      box-sizing: border-box;
+      body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 16px;
+  box-sizing: border-box;
+
+  /* South African Map with an overlay tint for readability */
+  background-color: #e5e7eb;
+  background-image: 
+    linear-gradient(rgba(240, 244, 248, 0.88), rgba(240, 244, 248, 0.88)), 
+    url('https://upload.wikimedia.org/wikipedia/commons/2/21/South_Africa_%28orthographic_projection%29.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 700px auto; /* Adjust size as desired */
+  background-attachment: fixed;
+}
     }
     .card {
       background: #ffffff;
