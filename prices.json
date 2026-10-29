@@ -1,0 +1,15 @@
+{
+  "month": "October 2026",
+  "inland": {
+    "ulp95": 24.50,
+    "ulp93": 24.15,
+    "diesel50": 21.85,
+    "diesel500": 21.40
+  },
+  "coastal": {
+    "ulp95": 23.72,
+    "ulp93": 23.35,
+    "diesel50": 21.05,
+    "diesel500": 20.60
+  }
+}
